@@ -7,7 +7,7 @@ sdk: static
 app_file: index.html
 license: apache-2.0
 pinned: false
-short_description: Five recurring ideas, explored through small working studies.
+short_description: Small working studies. Five motifs, one composition.
 ---
 
 # AgentTool Motifs

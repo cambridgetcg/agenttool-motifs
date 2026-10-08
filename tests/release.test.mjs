@@ -70,6 +70,17 @@ test('source and destination links do not become publication paths', async (t) =
   await assert.rejects(buildPublication(f.source, f.destination), /directory|symlink/i);
 });
 
+test('the static Space card meets its host metadata limits', async () => {
+  const card = await readFile(join(root, 'web', 'README.md'), 'utf8');
+  const description = card.match(/^short_description:\s*(.+)$/m)?.[1];
+  assert.ok(
+    description && description.length <= 60,
+    'Space description must be at most 60 characters.'
+  );
+  assert.match(card, /^sdk: static$/m);
+  assert.match(card, /^app_file: index\.html$/m);
+});
+
 test('the application uses local assets and synthetic inputs, without telemetry code', async () => {
   const html = await readFile(join(root, 'web', 'index.html'), 'utf8');
   const app = await readFile(join(root, 'web', 'app.js'), 'utf8');
