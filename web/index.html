@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf5ec" />
+    <meta
+      name="description"
+      content="A small collection of interactive studies in continuity, identity, privacy, relationship and trust. Different entrances. The same care."
+    />
+    <meta property="og:title" content="AgentTool Motifs — a small score for things that last" />
+    <meta
+      property="og:description"
+      content="Five recurring ideas. Small, working studies. Begin anywhere; follow the connections."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://cambridgetcg.github.io/agenttool-motifs/social.png"
+    />
+    <link rel="canonical" href="https://cambridgetcg.github.io/agenttool-motifs/" />
+    <link rel="icon" href="./mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>AgentTool Motifs — a small score for things that last</title>
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#studies">Skip to the studies</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#top" aria-label="AgentTool Motifs, beginning"
+        ><img src="./mark.svg" width="28" height="28" alt="" /><span
+          >agenttool <span class="brand-divider">/</span> <em>motifs</em></span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#studies">The studies</a><a href="#practice">The practice</a
+        ><a href="#entrances">Other entrances <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            An evolving collection <span class="hairline" aria-hidden="true"></span> Edition 01
+          </p>
+          <h1 id="hero-title">Let the motifs<br /><em>find each other.</em></h1>
+          <p class="hero-lede">
+            Small, working studies in what we carry,<br class="desktop-break" />
+            what we share, and what we trust.
+          </p>
+          <p class="hero-quiet">Keep what matters. Let the rest breathe.</p>
+          <div class="hero-actions">
+            <button class="button primary" id="begin-anywhere" disabled>
+              Begin anywhere <span aria-hidden="true">↗</span></button
+            ><a class="text-link" href="#studies">Or choose your own entrance</a>
+          </div>
+        </div>
+        <figure class="score">
+          <svg viewBox="0 0 520 380" role="img" aria-labelledby="score-title score-description">
+            <title id="score-title">Five motifs, connected</title>
+            <desc id="score-description">
+              Continuity, identity, privacy, relationship and trust. The highlighted ideas change
+              with the selected study.
+            </desc>
+            <g class="score-guides" aria-hidden="true">
+              <path d="M20 95H500M20 145H500M20 195H500M20 245H500M20 295H500" />
+            </g>
+            <g class="score-lines" aria-hidden="true">
+              <path data-between="continuity identity" d="M86 65C158 12 300 4 380 63" />
+              <path data-between="identity privacy" d="M380 63C465 120 494 183 454 239" />
+              <path data-between="privacy relationship" d="M454 239C400 300 360 340 270 320" />
+              <path data-between="relationship trust" d="M270 320C170 360 80 288 73 252" />
+              <path data-between="trust continuity" d="M73 252C25 186 42 110 86 65" />
+              <path data-between="continuity privacy" d="M86 65C235 120 275 202 454 239" />
+              <path data-between="trust privacy" d="M73 252C214 190 326 190 454 239" />
+              <path data-between="identity relationship" d="M380 63C267 120 250 227 270 320" />
+            </g>
+            <g class="score-center" aria-hidden="true">
+              <path d="M250 151L268 169L250 187L232 169Z" />
+            </g>
+            <g class="score-node" data-motif="continuity">
+              <circle cx="86" cy="65" r="6" />
+              <circle class="node-ring" cx="86" cy="65" r="12" />
+              <text x="86" y="40" text-anchor="middle">continuity</text>
+            </g>
+            <g class="score-node" data-motif="identity">
+              <circle cx="380" cy="63" r="6" />
+              <circle class="node-ring" cx="380" cy="63" r="12" />
+              <text x="380" y="38" text-anchor="middle">identity</text>
+            </g>
+            <g class="score-node" data-motif="privacy">
+              <circle cx="454" cy="239" r="6" />
+              <circle class="node-ring" cx="454" cy="239" r="12" />
+              <text x="454" y="268" text-anchor="middle">privacy</text>
+            </g>
+            <g class="score-node" data-motif="relationship">
+              <circle cx="270" cy="320" r="6" />
+              <circle class="node-ring" cx="270" cy="320" r="12" />
+              <text x="270" y="350" text-anchor="middle">relationship</text>
+            </g>
+            <g class="score-node" data-motif="trust">
+              <circle cx="73" cy="252" r="6" />
+              <circle class="node-ring" cx="73" cy="252" r="12" />
+              <text x="73" y="282" text-anchor="middle">trust</text>
+            </g>
+          </svg>
+          <figcaption>A theme is a place to begin,<br /><em>not a place to remain.</em></figcaption>
+        </figure>
+      </section>
+      <div class="motif-strip wrap" aria-label="The five recurring motifs">
+        <span>Continuity</span><i aria-hidden="true">·</i><span>Identity</span
+        ><i aria-hidden="true">·</i><span>Privacy</span><i aria-hidden="true">·</i
+        ><span>Relationship</span><i aria-hidden="true">·</i><span>Trust</span>
+      </div>
+
+      <section class="studies wrap section" id="studies" aria-labelledby="studies-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">I. The studies</p>
+            <h2 id="studies-title">Different entrances.<br /><em>The same care.</em></h2>
+          </div>
+          <p class="section-aside">
+            These controls use synthetic records, entirely in your browser. They do not read
+            accounts or query a live system.
+          </p>
+        </div>
+        <p class="script-note">
+          The ideas are readable without scripts. Enable JavaScript to explore the interactive
+          illustrations.
+        </p>
+        <p class="sr-only" id="app-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div class="study-layout">
+          <nav class="study-index" aria-label="Choose a study">
+            <a href="#observations" data-study="observations"
+              ><span class="index-number">01</span
+              ><span
+                ><strong>What remains known</strong
+                ><small>Observation &amp; continuity</small></span
+              ><span class="index-arrow" aria-hidden="true">↗</span></a
+            >
+            <a href="#doors" data-study="doors"
+              ><span class="index-number">02</span
+              ><span
+                ><strong>An opening, not a claim</strong
+                ><small>Disclosure &amp; relationship</small></span
+              ><span class="index-arrow" aria-hidden="true">↗</span></a
+            >
+            <a href="#branches" data-study="branches"
+              ><span class="index-number">03</span
+              ><span
+                ><strong>More than one way forward</strong
+                ><small>Identity &amp; disagreement</small></span
+              ><span class="index-arrow" aria-hidden="true">↗</span></a
+            >
+            <p class="index-footnote">
+              No prescribed order.<br />Follow what catches your attention.
+            </p>
+          </nav>
+          <div class="study-stage">
+            <article class="study-panel" id="observations" aria-labelledby="observations-title">
+              <p class="study-motifs">Continuity / privacy / trust</p>
+              <h3 id="observations-title" tabindex="-1">What remains known</h3>
+              <p class="study-intro">
+                An earlier assurance can still be useful. Keep it with its time, so what remains
+                known does not pretend to be what is known now.
+              </p>
+              <div class="experiment">
+                <fieldset class="controls" disabled>
+                  <legend>Change the illustration</legend>
+                  <label for="observation-result"
+                    >Recorded finding<select
+                      id="observation-result"
+                      aria-describedby="observation-output"
+                      aria-controls="observation-output"
+                    >
+                      <option value="positive">Positive finding</option>
+                      <option value="negative">Negative finding</option>
+                      <option value="missing">No observation</option>
+                    </select></label
+                  >
+                  <div class="range-label">
+                    <label for="observation-age">Minutes since observation</label
+                    ><output id="age-value" for="observation-age" aria-live="off">2 min</output>
+                  </div>
+                  <input
+                    id="observation-age"
+                    type="range"
+                    min="0"
+                    max="90"
+                    value="2"
+                    step="1"
+                    aria-describedby="observation-policy observation-freshness"
+                    aria-controls="observation-output"
+                  />
+                  <div class="range-ends" aria-hidden="true">
+                    <span>just now</span><span>90 minutes</span>
+                  </div>
+                </fieldset>
+                <div class="observation-reading" data-freshness="fresh">
+                  <span class="reading-label">The evidence is</span>
+                  <p class="reading-word" id="observation-freshness">kept with its time.</p>
+                  <p id="observation-meaning">
+                    Change the illustration to distinguish freshness from the recorded finding.
+                  </p>
+                </div>
+                <div class="view-controls" role="group" aria-label="Observation representation">
+                  <button
+                    data-surface="brief"
+                    aria-pressed="true"
+                    aria-controls="observation-output"
+                    disabled
+                  >
+                    Brief</button
+                  ><button
+                    data-surface="full"
+                    aria-pressed="false"
+                    aria-controls="observation-output"
+                    disabled
+                  >
+                    Full</button
+                  ><button
+                    data-surface="data"
+                    aria-pressed="false"
+                    aria-controls="observation-output"
+                    disabled
+                  >
+                    Data</button
+                  ><span>one card, three voices</span>
+                </div>
+                <pre class="rendered-reading" id="observation-output" data-surface="brief">
+One observation can travel through different forms without changing its meaning.</pre>
+                <p class="experiment-note" id="observation-policy">
+                  Illustrative clock. This example uses a five-minute freshness window. It is not a
+                  live safety check.
+                </p>
+              </div>
+              <p class="study-afterword">
+                Carry the observation forward. Do not quietly renew its authority.
+              </p>
+            </article>
+            <article class="study-panel" id="doors" aria-labelledby="doors-title">
+              <p class="study-motifs">Privacy / relationship / trust</p>
+              <h3 id="doors-title" tabindex="-1">An opening, not a claim</h3>
+              <p class="study-intro">
+                A place can be discoverable without being endorsed. A boundary can be unstated
+                without being safe. Let the missing words remain visible.
+              </p>
+              <div class="experiment">
+                <fieldset class="controls" disabled>
+                  <legend>Change the illustration</legend>
+                  <label for="door-record"
+                    >The publisher's boundary record<select
+                      id="door-record"
+                      aria-describedby="door-state door-meaning"
+                      aria-controls="door-state door-meaning door-relationship door-data-flow door-interpretation"
+                    >
+                      <option value="unstated">None recorded</option>
+                      <option value="partial">Partly stated</option>
+                      <option value="stated">Fully stated</option>
+                    </select></label
+                  >
+                </fieldset>
+                <div class="door-reading">
+                  <div class="door-mark" aria-hidden="true"><span></span></div>
+                  <div>
+                    <span class="reading-label">A door's boundary</span>
+                    <p class="reading-word" id="door-state">may be unstated.</p>
+                    <p id="door-meaning">An absent statement is not an endorsement.</p>
+                  </div>
+                </div>
+                <dl class="boundary-record">
+                  <div>
+                    <dt>Relationship</dt>
+                    <dd id="door-relationship">Unstated</dd>
+                  </div>
+                  <div>
+                    <dt>Data flow</dt>
+                    <dd id="door-data-flow">Unstated</dd>
+                  </div>
+                  <div>
+                    <dt>Interpretation</dt>
+                    <dd id="door-interpretation">Unstated</dd>
+                  </div>
+                </dl>
+                <p class="experiment-note">
+                  Synthetic publisher statements, not an audit or permission grant. This
+                  illustration does not open or contact another service.
+                </p>
+              </div>
+              <p class="study-afterword">An invitation need not become an obligation.</p>
+            </article>
+            <article class="study-panel" id="branches" aria-labelledby="branches-title">
+              <p class="study-motifs">Continuity / identity / relationship / trust</p>
+              <h3 id="branches-title" tabindex="-1">More than one way forward</h3>
+              <p class="study-intro">
+                Two continuations can share a beginning without one erasing the other. Make the
+                disagreement legible. Leave resolution as an explicit act.
+              </p>
+              <div class="experiment">
+                <fieldset class="controls fork-controls" disabled>
+                  <legend>Change the illustration</legend>
+                  <label for="branch-count"
+                    >Continuations<select
+                      id="branch-count"
+                      aria-describedby="fork-statement fork-meaning fork-scope"
+                      aria-controls="fork-statement fork-meaning fork-scope fork-data"
+                    >
+                      <option value="1">One</option>
+                      <option value="2" selected>Two</option>
+                      <option value="3">Three</option>
+                    </select></label
+                  ><label class="check-label" for="shared-author"
+                    ><input
+                      id="shared-author"
+                      type="checkbox"
+                      aria-describedby="fork-statement fork-meaning fork-scope"
+                      aria-controls="fork-statement fork-meaning fork-scope fork-data"
+                      checked
+                    />
+                    Shared author</label
+                  >
+                </fieldset>
+                <svg
+                  class="branch-figure"
+                  viewBox="0 0 540 200"
+                  role="img"
+                  aria-labelledby="branch-title branch-description"
+                >
+                  <title id="branch-title">A parent record and its continuations</title>
+                  <desc id="branch-description">
+                    2 illustrative continuations of a shared beginning. A shared author label. No
+                    winner is chosen.
+                  </desc>
+                  <g class="branch-paths" aria-hidden="true">
+                    <path data-branch="0" d="M100 100C220 100 245 60 390 60" />
+                    <path data-branch="1" d="M100 100C220 100 245 140 390 140" />
+                    <path data-branch="2" d="M100 100C220 100 235 158 390 158" hidden />
+                  </g>
+                  <g class="branch-parent">
+                    <circle cx="100" cy="100" r="8" />
+                    <text x="100" y="133" text-anchor="middle">shared beginning</text>
+                  </g>
+                  <g class="branch-leaf" data-leaf="0">
+                    <circle cx="390" cy="60" r="7" />
+                    <text x="414" y="65">continuation A</text>
+                  </g>
+                  <g class="branch-leaf" data-leaf="1">
+                    <circle cx="390" cy="140" r="7" />
+                    <text x="414" y="145">continuation B</text>
+                  </g>
+                  <g class="branch-leaf" data-leaf="2" hidden>
+                    <circle cx="390" cy="158" r="7" />
+                    <text x="414" y="163">continuation C</text>
+                  </g>
+                </svg>
+                <div class="fork-reading">
+                  <p class="fork-statement" id="fork-statement">Neither is chosen for you.</p>
+                  <p id="fork-meaning">
+                    A lineage can preserve its branches without deciding which one is true.
+                  </p>
+                  <span class="scope-note" id="fork-scope"
+                    >Illustrative project and authorship labels</span
+                  >
+                </div>
+                <details class="record-details">
+                  <summary>See the illustration's record</summary>
+                  <pre id="fork-data">
+The interactive view exposes only synthetic fixture labels.</pre>
+                </details>
+                <p class="experiment-note">
+                  This is a view of supplied records, not authenticated authorship or a complete
+                  lineage graph. No record is changed.
+                </p>
+              </div>
+              <p class="study-afterword">Connection is not the same as collapse.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="practice wrap section" id="practice" aria-labelledby="practice-title">
+        <div class="practice-intro">
+          <p class="eyebrow">II. The practice</p>
+          <h2 id="practice-title">Care is a structure,<br /><em>not a finish.</em></h2>
+          <p>Let each piece stand on its own.<br />Let it also belong to something larger.</p>
+          <p class="practice-small">
+            These are exploratory studies, not production integrations. The public edition is
+            curated; private experiments and operational records are not a live feed into this page.
+          </p>
+        </div>
+        <dl class="principles">
+          <div>
+            <dt>Continuity</dt>
+            <dd>Carry what matters. Let corrections travel with it.</dd>
+          </div>
+          <div>
+            <dt>Identity</dt>
+            <dd>Keep names, records and authority distinct.</dd>
+          </div>
+          <div>
+            <dt>Privacy</dt>
+            <dd>Disclose only what the encounter needs.</dd>
+          </div>
+          <div>
+            <dt>Relationship</dt>
+            <dd>Offer connection without making it an obligation.</dd>
+          </div>
+          <div>
+            <dt>Trust</dt>
+            <dd>Show what is known, and how it is known.</dd>
+          </div>
+        </dl>
+      </section>
+      <section class="entrances" id="entrances" aria-labelledby="entrances-title">
+        <div class="wrap entrances-inner">
+          <div>
+            <p class="eyebrow">III. Other entrances</p>
+            <h2 id="entrances-title">The work has<br /><em>more than one door.</em></h2>
+            <p>
+              One public edition, shared across surfaces.<br />The meaning does not need a new
+              definition at each one.
+            </p>
+          </div>
+          <nav class="entrance-links" aria-label="Public entrances">
+            <a
+              href="https://huggingface.co/spaces/Yu-and-Ai/agenttool-motifs"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span><small>Explore</small>Hugging Face</span><span aria-hidden="true">↗</span
+              ><span class="sr-only">opens in a new tab</span></a
+            ><a
+              href="https://github.com/cambridgetcg/agenttool-motifs"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span><small>Inspect</small>The source</span><span aria-hidden="true">↗</span
+              ><span class="sr-only">opens in a new tab</span></a
+            ><a href="https://agenttool.dev" target="_blank" rel="noopener noreferrer"
+              ><span><small>Return</small>AgentTool</span><span aria-hidden="true">↗</span
+              ><span class="sr-only">opens in a new tab</span></a
+            ><a href="https://docs.agenttool.dev/WAKE.md" target="_blank" rel="noopener noreferrer"
+              ><span><small>Read</small>The foundation</span><span aria-hidden="true">↗</span
+              ><span class="sr-only">opens in a new tab</span></a
+            >
+          </nav>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <p>AgentTool Motifs <span aria-hidden="true">/</span> Made to be returned to.</p>
+      <p>
+        No application telemetry, remote fonts or live account access.<br />Hosting providers may
+        retain ordinary access logs.
+      </p>
+      <a href="#top">Back to the beginning <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>

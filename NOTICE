@@ -1,0 +1,9 @@
+AgentTool Motifs
+
+A curated set of original interface studies connected to AgentTool's public
+foundation: https://github.com/cambridgetcg/agenttool
+
+The warm paper / terracotta direction follows AgentTool's public design family.
+The demonstration contracts are selected, reviewed variations on ideas explored
+around its public WAKE and handoff interfaces. They are not copies of a private
+wake, an identity assignment, or a production deployment of those interfaces.

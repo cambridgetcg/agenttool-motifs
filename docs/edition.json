@@ -1,0 +1,67 @@
+{
+  "edition": "1.0.0",
+  "kind": "curated-public-study",
+  "data": "synthetic",
+  "files": [
+    {
+      "name": "index.html",
+      "bytes": 22378,
+      "sha256": "0c16f58ca06b85e845bde34cfb7f9cc95f6d4b1ce6ab37ea47e0ff774e8c7f06"
+    },
+    {
+      "name": "style.css",
+      "bytes": 20692,
+      "sha256": "ba7d65512206c448e78bd485d45ee940ce57075868d22dd1af0354ff4019579e"
+    },
+    {
+      "name": "app.js",
+      "bytes": 9419,
+      "sha256": "afec17b3b739774d01c6fb84bfcffc90a933aad7101131488b4aa8ed4ebbf940"
+    },
+    {
+      "name": "engine.mjs",
+      "bytes": 5809,
+      "sha256": "98695d757c0a17a02cf5c2feb60f75f4c5c96c82b2c8f44dd8dc23860f306caa"
+    },
+    {
+      "name": "collection.mjs",
+      "bytes": 605,
+      "sha256": "6f77e979b0d92e22126b10c74aabf7af200dba4930161113b75fe578b4503a73"
+    },
+    {
+      "name": "mark.svg",
+      "bytes": 424,
+      "sha256": "47943fbbe4ed23303bedc09dd41407198690b5f89d8b21855931a72487a2a3b3"
+    },
+    {
+      "name": "social.svg",
+      "bytes": 1850,
+      "sha256": "09aee062b9b6e85c626d0ed0acb004cfd11febd2b63f43d1f55360a2462f8845"
+    },
+    {
+      "name": "social.png",
+      "bytes": 57676,
+      "sha256": "f9dac19dfc93db4d1cddf7cab744b83fcd2effa701cfff38b012e9f8dea99482"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1695,
+      "sha256": "b04cf33cc463169eb3cdc6daba6a4b8ccd9e0191a1029a39a0b32e9ff7199b45"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "name": "NOTICE",
+      "bytes": 467,
+      "sha256": "59cc0ea8c2f4598ebecd4218732dcff0bf89cb3459f715550627d80f5a0f6a39"
+    },
+    {
+      "name": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}
